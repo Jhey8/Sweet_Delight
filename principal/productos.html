@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🧁Sweet-Delight | Productos🍰</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/productos.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Kavoon&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+</head>
+
+<body>
+
+    <header class="nav">
+        <div class="div-logo">
+            <img src="../recursos/img/loguito.png" alt="Logo" class="logo">
+        </div>
+
+        <button class="menu-hamburguesa" id="menuHamburguesa">
+            <i class="fa-solid fa-bars"></i>
+        </button>
+
+        <ul class="pestañas-nav" id="menuNav">
+            <li><a href="../index.html">INICIO</a></li>
+            <li><a href="productos.html">PRODUCTOS</a></li>
+            <li><a href="sobre-nosotros.html">SOBRE NOSOTROS</a></li>
+            <li><a href="nuestro-local.html">NUESTRO LOCAL</a></li>
+        </ul>
+
+    </header>
+
+
+    <main class="contenido-principal">
+        <section>
+            <h2>Nuestros Productos</h2>
+            <p>Descubre la variedad de postres artesanales que tenemos para ti.</p>
+
+            <div class="acordeon">
+                <details class="Contenedor">
+
+                    <summary><span>Queques</span></summary>
+
+                    <div class="contenido-acordeon">
+                        <div class="tarjeta-producto">
+                            <img src="../recursos/img/Torta de Zanahoiria.jpeg" alt="Queque de Zanahoria">
+                            <h4>Queque de Zanahoria</h4>
+                            <p>S/. 23.00</p>
+                            <button onclick="mostrarDetalle('Queque de Zanahoria',
+                            '../recursos/img/QuequeZanahoria3.WEBP',
+                            '../recursos/img/QuequeZanahoria2.JPG',
+                            'Queque casero esponjoso hecho con zanahorias naturales. Ideal para acompañar con un café o té.',
+                            'S/. 23.00'
+                            )">DETALLES</button>
+                        </div>
+
+                        <div class="tarjeta-producto">
+                            <img src="../recursos/img/Queque de Platano.jpeg" alt="Queque de Platano">
+                            <h4>Queque de Platano</h4>
+                            <p>S/. 23.00</p>
+                            <button onclick="mostrarDetalle(
+                            'Queque de Plátano',
+                            '../recursos/img/QuequePlatano1.WEBP',
+                            '../recursos/img/QuequePlatano2.JPG',
+                            'Delicioso queque casero elaborado con plátanos frescos y suave. Perfecto para acompañar un café o disfrutar como postre.',
+                            'S/. 23.00'
+                            )">DETALLES</button>
+
+                        </div>
+
+                        <div class="tarjeta-producto">
+                            <img src="../recursos/img/Queque de Chocolate.jpeg" alt="Queque de Chocolate">
+                            <h4>Queque de Chocolate</h4>
+                            <p>S/. 23.00</p>
+                            <button onclick="mostrarDetalle(
+                            'Queque de Chocolate',
+                            '../recursos/img/QuequeChocolate1.JPG',
+                            '../recursos/img/QuequeChocolate2.JPG',
+                            'Queque casero elaborado con cacao puro y chocolate derretido, de textura húmeda y sabor intenso. Una opción perfecta para los amantes del chocolate.',
+                            'S/. 23.00'
+                            )">DETALLES</button>
+
+                        </div>
+
+                        <div class="tarjeta-producto">
+                            <img src="../recursos/img/Queque de Vainilla.jpeg" alt="Queque de Vainilla">
+                            <h4>Queque de Vainilla</h4>
+                            <p>S/. 23.00</p>
+                            <button onclick="mostrarDetalle(
+                            'Queque de Vainilla',
+                            '../recursos/img/QuequeVainilla1.JPG',
+                            '../recursos/img/QuequeVainilla2.WEBP',
+                            'Queque casero elaborado con esencia natural de vainilla, de textura suave y sabor delicado. Ideal para cualquier ocasión.',
+                            'S/. 23.00'
+                            )">DETALLES</button>
+                        </div>
+
+                        <div class="tarjeta-producto">
+                            <img src="../recursos/img/Queque de Naranja.jpeg" alt="Queque de Naranja">
+                            <h4>Queque de Naranja</h4>
+                            <p>S/. 23.00</p>
+                            <button onclick="mostrarDetalle(
+                            'Queque de Naranja',   
+                            '../recursos/img/QuequeNaranja1.JPG',
+                            '../recursos/img/QuequeNaranja2.JPG',
+                            'Queque casero elaborado con jugo y ralladura de naranjas frescas, de textura esponjosa y sabor cítrico. Perfecto para acompañar un café o té.',
+                            'S/. 23.00'
+                            )">DETALLES</button>
+                        </div>
+                    </div>
+                </details>
+
+                <details class="Contenedor">
+                    <summary><span>Empanadas</span></summary>
+                    <div class="contenido-acordeon">
+                        <div class="tarjeta-producto">
+                            <img src="../recursos/img/Empanada de Pollo.jpeg" alt="Empanadas de Pollo">
+                            <h4>Empanadas de Pollo</h4>
+                            <p>S/. 1.00</p>
+                            <button onclick="mostrarDetalle(
+                            'Empanadas de Pollo',
+                            '../recursos/img/EmpanadaPollo1.JPG',
+                            '../recursos/img/EmpanadaPollo2.JPG',
+                            'Deliciosas empanadas rellenas de jugoso pollo sazonado con especias y hierbas, envueltas en una masa crujiente y dorada. Perfectas para un snack o acompañamiento.',
+                            'S/. 1.00'
+                            )">DETALLES</button>
+                        </div>
+
+                        <div class="tarjeta-producto">
+                            <img src="../recursos/img/Empanada de Manzana.jpeg" alt="Empanadas de Manzana">
+                            <h4>Empanadas de Manzana</h4>
+                            <p>S/. 1.00</p>
+                            <button onclick="mostrarDetalle(
+                            'Empanadas de Manzana',
+                            '../recursos/img/EmpanadaManzana1.JPG',
+                            '../recursos/img/EmpanadaManzana2.JPG',
+                            'Deliciosas empanadas rellenas de manzana dulce y especias, envueltas en una masa crujiente y dorada. Perfectas para un postre o merienda.',
+                            'S/. 1.00'
+                            )">DETALLES</button>
+                        </div>
+
+                        <div class="tarjeta-producto">
+                            <img src="../recursos/img/Empanada de Queso.jpeg" alt="Empanadas de Queso">
+                            <h4>Empanadas en Queso</h4>
+                            <p>S/. 1.00</p>
+                            <button onclick="mostrarDetalle(
+                            'Empanadas en Queso',
+                            '../recursos/img/EmpanadaQueso1.JPG',
+                            '../recursos/img/EmpanadaQueso2.JPG',
+                            'Deliciosas empanadas rellenas de queso fundido y especias, envueltas en una masa crujiente y dorada. Perfectas para un snack o acompañamiento.',
+                            'S/. 1.00'
+                            )">DETALLES</button>
+                        </div>
+                    </div>
+                </details>
+
+                <details class="Contenedor">
+                    <summary><span>Galletas</span></summary>
+                    <div class="contenido-acordeon">
+                        <div class="tarjeta-producto">
+                            <img src="../recursos/img/Galletas de ChocoChip.jpeg" alt="Galletas de ChocoChip">
+                            <h4>Galletas de ChocoChip</h4>
+                            <p>S/. 1.00</p>
+                            <button onclick="mostrarDetalle(
+                            'Galletas de ChocoChip',
+                            '../recursos/img/GalletaChocoChip1.JPG',
+                            '../recursos/img/GalletaChocoChip2.JPG',
+                            'Deliciosas galletas con chispas de chocolate, crujientes por fuera y suaves por dentro. Perfectas para acompañar tu café o té.',
+                            'S/. 1.00'
+                            )">DETALLES</button>
+                        </div>
+
+                        <div class="tarjeta-producto">
+                            <img src="../recursos/img/Galletas de Avena.jpeg" alt="Galletas de Avena">
+                            <h4>Galletas de Avena</h4>
+                            <p>S/. 1.00</p>
+                            <button onclick="mostrarDetalle(
+                            'Galletas de Avena',
+                            '../recursos/img/GalletasAvena1.JPG',
+                            '../recursos/img/GalletasAvena2.JPG',
+                            'Deliciosas galletas de avena, crujientes y saludables, perfectas para un snack nutritivo.',
+                            'S/. 1.00'
+                            )">DETALLES</button>
+                        </div>
+                    </div>
+                </details>
+
+                <details class="Contenedor">
+                    <summary><span>Tortas</span></summary>
+                    <div class="contenido-acordeon">
+                        <div class="tarjeta-producto">
+                            <img src="../recursos/img/Torta de Chantillly.jpeg" alt="Torta de Chantilly">
+                            <h4>Torta de Chantilly</h4>
+                            <p>S/. 70.00</p>
+                            <button onclick="mostrarDetalle(
+                            'Torta de Chantilly',
+                            '../recursos/img/TortaChantilly1.JPG',
+                            '../recursos/img/TortaChantilly2.JPG',
+                            'Deliciosa torta de chantilly, suave y cremosa, perfecta para cualquier ocasión especial.',
+                            'S/. 70.00'
+                            )">DETALLES</button>
+                        </div>
+
+                        <div class="tarjeta-producto">
+                            <img src="../recursos/img/Torta Fondant.jpeg" alt="Torta de Fondant">
+                            <h4>Torta de Fondant</h4>
+                            <p>S/. 70.00</p>
+                            <button onclick="mostrarDetalle(
+                            'Torta de Fondant',
+                            '../recursos/img/TortaFondant1.JPG',
+                            '../recursos/img/TortaFondant2.JPG',
+                            'Deliciosa torta de fondant, decorada con detalles elegantes y sabor exquisito, ideal para celebraciones especiales.',
+                            'S/. 70.00'
+                            )">DETALLES</button>
+                        </div>
+
+                        <div class="tarjeta-producto">
+                            <img src="../recursos/img/Torta Selva Negra.jpeg" alt="Torta Selva Negra">
+                            <h4>Torta Selva Negra</h4>
+                            <p>S/. 70.00</p>
+                            <button onclick="mostrarDetalle(
+                            'Torta Selva Negra',
+                            '../recursos/img/TortaSelvaNegra1.JPG',
+                            '../recursos/img/TortaSelvaNegra2.JPG',
+                            'Deliciosa torta selva negra, con capas de chocolate y cerezas, un clásico irresistible.',
+                            'S/. 70.00'
+                            )">DETALLES</button>
+                        </div>
+
+                        <div class="tarjeta-producto">
+                            <img src="../recursos/img/Torta Helada.jpeg" alt="Torta Helada">
+                            <h4>Torta Helada</h4>
+                            <p>S/. 70.00</p>
+                            <button onclick="mostrarDetalle(
+                            'Torta Helada',
+                            '../recursos/img/TortaHelada1.JPG',
+                            '../recursos/img/TortaHelada2.JPG',
+                            'Deliciosa torta helada, refrescante y cremosa, ideal para los días calurosos.',
+                            'S/. 70.00'
+                            )">DETALLES</button>
+                        </div>
+
+                        <div class="tarjeta-producto">
+                            <img src="../recursos/img/Torta Tres Leches.jpeg" alt="Torta Tres Leches">
+                            <h4>Torta Tres Leches</h4>
+                            <p>S/. 50.00</p>
+                            <button onclick="mostrarDetalle(
+                            'Torta Tres Leches',
+                            '../recursos/img/TortaTresLeches1.JPG',
+                            '../recursos/img/TortaTresLeches2.JPG',
+                            'Deliciosa torta tres leches, esponjosa y húmeda, con un sabor dulce y cremoso.',
+                            'S/. 50.00'
+                            )">DETALLES</button>
+                        </div>
+                    </div>
+                </details>
+
+                <details class="Contenedor">
+                    <summary><span>Mini Tortas</span></summary>
+                    <div class="contenido-acordeon">
+                        <div class="tarjeta-producto">
+                            <img src="../recursos/img/Mini Torta.jpeg" alt="Mini Tortas">
+                            <h4>Mini Tortas</h4>
+                            <p>S/. 25.00</p>
+                            <button onclick="mostrarDetalle(
+                            'Mini Tortas',
+                            '../recursos/img/MiniTorta1.JPG',
+                            '../recursos/img/MiniTorta2.WEBP',
+                            'Deliciosas mini tortas, perfectas para porciones individuales y celebraciones pequeñas.',
+                            'S/. 25.00'
+                            )">DETALLES</button>
+                        </div>
+                        <div class="tarjeta-producto">
+                            <img src="../recursos/img/Mini Tortas + 2 Cupcakes.jpeg" alt="Mini Tortas + 2 Cupcakes">
+                            <h4>Mini Tortas + 2 Cupcakes</h4>
+                            <p>S/. 30.00</p>
+                            <button onclick="mostrarDetalle(
+                            'Mini Tortas + 2 Cupcakes',
+                            '../recursos/img/MiniTorta2Cupcakes1.JPG',
+                            '../recursos/img/MiniTorta2Cupcakes2.JPG',
+                            'Deliciosas mini tortas acompañadas de 2 cupcakes, perfectas para compartir en pequeñas celebraciones.',
+                            'S/. 30.00'
+                            )">DETALLES</button>
+                        </div>
+                        <div class="tarjeta-producto">
+                            <img src="../recursos/img/Mini Tortas + 5 Cupcakes.jpeg" alt="Mini Tortas + 5 Cupcakes">
+                            <h4>Mini Tortas + 5 Cupcakes</h4>
+                            <p>S/. 40.00</p>
+                            <button onclick="mostrarDetalle(
+                            'Mini Tortas + 5 Cupcakes',
+                            '../recursos/img/MiniTorta5Cupcakes1.WEBP',
+                            '../recursos/img/MiniTorta5Cupcakes2.WEBP',
+                            'Deliciosas mini tortas acompañadas de 5 cupcakes, perfectas para compartir en celebraciones más grandes.',
+                            'S/. 40.00'
+                            )">DETALLES</button>
+                        </div>
+                    </div>
+                </details>
+
+                <details class="Contenedor">
+                    <summary><span>Brownies</span></summary>
+                    <div class="contenido-acordeon">
+                        <div class="tarjeta-producto">
+                            <img src="../recursos/img/Brownies.jpeg" alt="Brownies">
+                            <h4>Brownies</h4>
+                            <p>S/. 5.00</p>
+                            <button onclick="mostrarDetalle(
+                            'Brownies',
+                            '../recursos/img/Brownies1.JPG',
+                            '../recursos/img/Brownies2.JPG',
+                            'Deliciosos brownies, con un sabor intenso a chocolate y una textura suave y húmeda.',
+                            'S/. 5.00'
+                            )">DETALLES</button>
+                        </div>
+                    </div>
+                </details>
+
+                <details class="Contenedor">
+                    <summary><span>Budín</span></summary>
+                    <div class="contenido-acordeon">
+                        <div class="tarjeta-producto">
+                            <img src="../recursos/img/Budín.jpeg" alt="Budín">
+                            <h4>Budín</h4>
+                            <p>S/. 1.50</p>
+                            <button onclick="mostrarDetalle(
+                            'Budín',
+                            '../recursos/img/Budin1.WEBP',
+                            '../recursos/img/Budin2.JPG',
+                            'Delicioso budín, suave y esponjoso, ideal para acompañar con una taza de café o té.',
+                            'S/. 1.50'
+                            )">DETALLES</button>
+                        </div>
+                    </div>
+                </details>
+
+                <details class="Contenedor">
+                    <summary><span>Copas y Trufas</span></summary>
+                    <div class="contenido-acordeon">
+                        <div class="tarjeta-producto">
+                            <img src="../recursos/img/Copas de Chocolate.jpeg" alt="Copas de Chocolate">
+                            <h4>Copas de Chocolate</h4>
+                            <p>S/. 3.00</p>
+                            <button onclick="mostrarDetalle(
+                            'Copas de Chocolate',
+                            '../recursos/img/CopasDeChocolate1.JPG',
+                            '../recursos/img/CopasDeChocolate2.JPG',
+                            'Deliciosas copas de chocolate, perfectas para los amantes del chocolate.',
+                            'S/. 3.00'
+                            )">DETALLES</button>
+                        </div>
+
+                        <div class="tarjeta-producto">
+                            <img src="../recursos/img/Trufas.jpeg" alt="Trufas">
+                            <h4>Trufas</h4>
+                            <p>S/. 2.00</p>
+                            <button onclick="mostrarDetalle(
+                            'Trufas',
+                            '../recursos/img/Trufas1.WEBP',
+                            '../recursos/img/Trufas2.JPG',
+                            'Deliciosas trufas, elaboradas con chocolate de alta calidad y rellenas de sabores variados.',
+                            'S/. 2.00'
+                            )">DETALLES</button>
+                        </div>
+                    </div>
+                </details>
+
+                <details class="Contenedor">
+                    <summary><span>Postres Individuales</span></summary>
+                    <div class="contenido-acordeon">
+                        <div class="tarjeta-producto">
+                            <img src="../recursos/img/Tarta de Limón.jpeg" alt="Tarta de Limón">
+                            <h4>Tarta de Limón</h4>
+                            <p>S/. 7.00</p>
+                            <button onclick="mostrarDetalle(
+                            'Tarta de Limón',
+                            '../recursos/img/TartaLimon1.JPG',
+                            '../recursos/img/TartaLimon2.JPG',
+                            'Deliciosa tarta de limón, con un equilibrio perfecto entre dulce y ácido.',
+                            'S/. 7.00'
+                            )">DETALLES</button>
+                        </div>
+
+
+                        <div class="tarjeta-producto">
+                            <img src="../recursos/img/Tortaletas con salsa blanca.jpeg"
+                                alt="Tortaletas con Salsa Blanca">
+                            <h4>Tortaletas con Salsa Blanca</h4>
+                            <p>S/. 7.00</p>
+                            <button onclick="mostrarDetalle(
+                            'Tortaletas con Salsa Blanca',
+                            '../recursos/img/TortaletasConSalsaBlanca1.jpeg',
+                            '../recursos/img/TortaletasConSalsaBlanca2.JPG',
+                            'Deliciosas tortaletas con salsa blanca, perfectas para un postre elegante y sabroso.',
+                            'S/. 7.00'
+                            )">DETALLES</button>
+                        </div>
+
+
+                        <div class="tarjeta-producto">
+                            <img src="../recursos/img/Pionono con relleno de manjar.jpeg"
+                                alt="Piono con Relleno de Manjar">
+                            <h4>Piono con Relleno de Manjar</h4>
+                            <p>S/. 2.00</p>
+                            <button onclick="mostrarDetalle(
+                            'Piono con Relleno de Manjar',
+                            '../recursos/img/PiononoConRellenoDeManjar1.JPG',
+                            '../recursos/img/PiononoConRellenoDeManjar2.JPG',
+                            'Delicioso pionono relleno de manjar, suave y dulce, ideal para un postre tradicional.',
+                            'S/. 2.00'
+                            )">DETALLES</button>
+                        </div>
+
+
+                        <div class="tarjeta-producto">
+                            <img src="../recursos/img/Masacokaque.jpeg" alt="Masacokaque">
+                            <h4>Masacokaque</h4>
+                            <p>S/. 2.00</p>
+                            <button onclick="mostrarDetalle(
+                            'Masacokaque',
+                            '../recursos/img/Masacokaque1.JPG',
+                            '../recursos/img/Masacokaque2.JPG',
+                            'Delicioso masacokaque, un postre tradicional con un sabor único y auténtico.',
+                            'S/. 2.00'
+                            )">DETALLES</button>
+                        </div>
+
+
+                        <div class="tarjeta-producto">
+                            <img src="../recursos/img/Chocoflan.jpeg" alt="Chocoflan">
+                            <h4>Chocoflan</h4>
+                            <p>S/. 3.00</p>
+                            <button onclick="mostrarDetalle(
+                            'Chocoflan',
+                            '../recursos/img/Chocoflan1.JPG',
+                            '../recursos/img/Chocoflan2.JPG',
+                            'Delicioso chocoflan, una combinación perfecta de chocolate y flan.',
+                            'S/. 3.00'
+                            )">DETALLES</button>
+                        </div>
+
+
+                        <div class="tarjeta-producto">
+                            <img src="../recursos/img/Crema volteada.jpeg" alt="Crema Volteada">
+                            <h4>Crema Volteada</h4>
+                            <p>S/. 3.00</p>
+                            <button onclick="mostrarDetalle(
+                            'Crema Volteada',
+                            '../recursos/img/CremaVolteada1.AVIF',
+                            '../recursos/img/CremaVolteada2.WEBP',
+                            'Deliciosa crema volteada, un postre clásico y cremoso.',
+                            'S/. 3.00'
+                            )">DETALLES</button>
+                        </div>
+                    </div>
+                </details>
+            </div>
+            <button class="btn-expandir">EXPANDIR</button>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p class="titulo">Sweet-Delight</p>
+
+        <div class="div-redes">
+            <p>Redes Sociales</p>
+
+            <h5><i class="fa-brands fa-facebook"></i> Facebook</h5>
+            <h5><i class="fa-brands fa-instagram"></i> Instagram</h5>
+        </div>
+
+        <div class="div-contacto">
+            <p>Contáctanos</p>
+            <h5><i class="fa-solid fa-phone"></i> 942 231 107</h5>
+            <h5><i class="fa-solid fa-envelope"></i> pyrsweetdelight@outook.com</h5>
+            <h5><i class="fa-solid fa-phone"></i> 076-614713</h5>
+        </div>
+
+        <div class="div-ubicacion">
+            <p>Ubicación</p>
+            <h5><i class="fa-solid fa-location-dot"></i> Calle Francisco Orellana N° 438 <br> Jaén, Cajamarca, Perú</h5>
+        </div>
+
+        <div class="derechos">
+            <p>© 2025 Sweet Delight. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <!-- MODAL DETALLES -->
+    <div id="modalDetalles" class="modal">
+        <div class="modal-content">
+            <span class="cerrar" onclick="cerrarModal()">&times;</span>
+
+            <h2 id="detalleTitulo"></h2>
+
+            <div class="imagenes-detalle">
+                <img id="img1" src="">
+                <img id="img2" src="">
+            </div>
+            <p id="detalleDescripcion"></p>
+            <h4 id="detallePrecio"></h4>
+        </div>
+    </div>
+
+    <script src="../js/nav.js"></script>
+    <script src="../js/productos.js"></script>
+</body>
+</html>
