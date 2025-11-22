@@ -11,7 +11,7 @@ const productos = [
     { imagen:"./recursos/img/cupcake.jpg", nombre:"Cupcakes Surtidos", descripcion:"Variedad de sabores y decoraciones para todos los gustos." },
     { imagen:"./recursos/img/galleta.png", nombre:"Galletas Decoradas", descripcion:"Perfectas para regalar o acompañar con un café." },
     { imagen:"./recursos/img/Trufas.jpeg", nombre:"Trufas de Chocolate", descripcion:"Bocaditos de chocolate rellenos de cremas y licores." },
-    { imagen:"./recursos/img/Crema Volteada.jpeg", nombre:"Crema Volteada", descripcion:"Postre clásico con caramelo y textura suave." },
+    { imagen:"./recursos/img/Crema volteada.jpeg", nombre:"Crema Volteada", descripcion:"Postre clásico con caramelo y textura suave." },
     { imagen:"./recursos/img/Budín.jpeg", nombre:"Budín de Pan", descripcion:"Delicioso budín hecho con pan, pasas y especias." }
 ];
 
