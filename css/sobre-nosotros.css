@@ -16,7 +16,7 @@
 }
 
 
-/* ---------------- BODY ---------------- */
+/* BODY  */
 h1,
 h2,
 h3 {
@@ -256,7 +256,7 @@ img {
     margin: auto;
 }
 
-/* ---------------- BLOQUE VISIÓN ---------------- */
+/*BLOQUE VISIÓN  */
 
 .bloque_vision {
     display: flex;

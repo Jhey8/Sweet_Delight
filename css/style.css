@@ -63,7 +63,7 @@ img {
     max-width: 100%;
 }
 
-/* ---------------- HEADER ---------------- */
+/*  HEADER  */
 
 .nav {
     display: flex;
@@ -110,7 +110,7 @@ img {
 
 
 
-/* -----------MENÚ HAMBURGUESA-------- */
+/*MENÚ HAMBURGUESA*/
 
 .menu-hamburguesa {
     display: none;
@@ -155,7 +155,7 @@ img {
     color: var(--color-rojito);
 }
 
-/* ---------------- BIENVENIDA ---------------- */
+/*  BIENVENIDA */
 
 .imagen-bienvenida {
     position: relative;
