@@ -294,9 +294,7 @@ details p {
 .titulo {
     padding: 10px;
     grid-column: 1 / -1;
-    font-weight: bold;
     margin: 0;
-    font-family: 'Kavoon', cursive;
 }
 
 .derechos {

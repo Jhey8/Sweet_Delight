@@ -25,13 +25,13 @@ body {
     flex-direction: column;
     background-color: var(--color-blanco);
     color: var(--color-texto);
-    line-height: 1.5; 
+    line-height: 1.5;
 }
 
 .contenido-principal {
     flex: 1 0 auto;
-    
-}   
+
+}
 
 section {
     padding: 0;
@@ -39,7 +39,9 @@ section {
     text-align: center;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
     color: var(--color-texto);
     margin-bottom: 15px;
 }
@@ -52,7 +54,8 @@ p {
 
 
 
-header, img {
+header,
+img {
     margin: 0;
     height: 100px;
     width: 100px;
@@ -89,13 +92,20 @@ header, img {
 }
 
 @keyframes cambio-color {
-    0% { background-color: #ffffff; transform: scale(0%); }
-    100% { background-color: var(--color-intenso); transform: scale(100%); }
+    0% {
+        background-color: #ffffff;
+        transform: scale(0%);
+    }
+
+    100% {
+        background-color: var(--color-intenso);
+        transform: scale(100%);
+    }
 }
 
 .logo:hover {
     transition: transform 2s ease-in-out;
-    transform: rotate(360deg); 
+    transform: rotate(360deg);
 }
 
 
@@ -103,13 +113,13 @@ header, img {
 /* -----------MENÚ HAMBURGUESA-------- */
 
 .menu-hamburguesa {
-    display: none; 
+    display: none;
     background: none;
     border: none;
     font-size: 28px;
     color: var(--color-blanco);
     cursor: pointer;
-    position:absolute;
+    position: absolute;
     right: 5%;
     padding: 10px;
     z-index: 1100;
@@ -122,10 +132,10 @@ header, img {
 
 /* NAV  */
 
-.pestañas-nav { 
+.pestañas-nav {
     display: flex;
-    flex-wrap: wrap; 
-    list-style: none; 
+    flex-wrap: wrap;
+    list-style: none;
     gap: 10px;
     width: 70%;
     justify-content: space-evenly;
@@ -164,7 +174,7 @@ header, img {
     top: 30%;
     left: 10%;
     color: var(--color-blanco);
-    font-size: 6vw;  
+    font-size: 6vw;
     font-family: 'Kavoon', cursive;
 }
 
@@ -188,7 +198,7 @@ header, img {
     border-radius: 12px;
     overflow: hidden;
     width: 220px;
-    height: 330px; 
+    height: 330px;
     padding: 10px;
     text-align: center;
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
@@ -198,7 +208,7 @@ header, img {
 
 .produc img {
     width: 100%;
-    height: 160px;  
+    height: 160px;
     object-fit: cover;
     border-radius: 12px;
     display: block;
@@ -207,6 +217,7 @@ header, img {
 .produc:hover {
     transform: translateY(-5px);
 }
+
 /* LISTA DE MIS PRODUCTOS DEL CARRUSEL*/
 
 .lista-productos {
@@ -249,14 +260,14 @@ header, img {
     background-color: var(--color-nav);
     border-radius: 18px;
     padding: 5px 20px;
-    transition: all 0.3s ease; 
+    transition: all 0.3s ease;
     font-size: 17px;
     font-weight: 900;
 }
 
 .ver-todos button:hover {
     transform: scale(1.2);
-    background-color: var(--color-nav);  
+    background-color: var(--color-nav);
     color: var(--color-blanco);
 }
 
@@ -272,6 +283,17 @@ header, img {
     padding: 20px 15px;
     font-weight: bold;
     flex-shrink: 0;
+}
+
+.footer a {
+    text-decoration: none;
+    color: var(--color-texto);
+    font-weight: 500;
+}
+
+.footer a:hover {
+    color: var(--color-intenso);
+    text-decoration: underline;
 }
 
 .titulo {
@@ -292,7 +314,7 @@ header, img {
     min-height: 50px;
     margin: 0 -15px -20px -15px;
     padding: 15px;
-    
+
 }
 
 .derechos p {
@@ -306,17 +328,17 @@ header, img {
 /* ---------------- RESPONSIVE ---------------- */
 
 @media (max-width: 800px) {
-    
 
-    
+
+
     .menu-hamburguesa {
         display: block;
     }
-    
-    
+
+
     .pestañas-nav {
         position: fixed;
-        top: 130px; 
+        top: 130px;
         left: 0;
         width: 100%;
         background-color: var(--color-nav);
@@ -324,23 +346,23 @@ header, img {
         align-items: center;
         padding: 20px 0;
         gap: 2px;
-                
+
         display: none;
-        
+
         transition: all 0.3s ease;
     }
-    
-   
+
+
     .pestañas-nav.show {
         display: flex;
     }
-    
-    
+
+
     .pestañas-nav li {
         width: 100%;
         text-align: center;
     }
-    
+
     .pestañas-nav a {
         display: block;
         padding: 15px;
@@ -350,7 +372,7 @@ header, img {
 
     .pestañas-nav a:hover {
         background-color: var(--color-texto);
-    }   
+    }
 
     .lista-productos {
         flex-direction: column;
@@ -371,10 +393,11 @@ header, img {
 
     .footer .titulo {
         font-size: 1.5rem;
-    }   
+    }
 
     .derechos {
-        margin: 0 -10px -15px -10px; /*para celulares*/
+        margin: 0 -10px -15px -10px;
+        /*para celulares*/
         font-size: 0.85 rem;
         padding: 15px 10px;
     }

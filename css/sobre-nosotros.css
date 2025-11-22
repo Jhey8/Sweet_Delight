@@ -8,6 +8,14 @@
     --color-rojito: #ff0404;
 }
 
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+
 /* ---------------- BODY ---------------- */
 h1,
 h2,
@@ -15,6 +23,7 @@ h3 {
     color: var(--color-texto);
     margin-bottom: 15px;
 }
+
 
 p {
     color: var(--color-texto);
@@ -32,7 +41,7 @@ img {
     display: block;
 }
 
-/* ---------------- HEADER ---------------- */
+/*  HEADER */
 .nav {
     display: flex;
     align-items: center;
@@ -74,7 +83,7 @@ img {
     transform: rotate(360deg);
 }
 
-/* ----------- MENÚ HAMBURGUESA -------- */
+/* MENÚ HAMBURGUESA  */
 .menu-hamburguesa {
     display: none;
     background: none;
@@ -114,7 +123,7 @@ img {
     color: var(--color-rojito);
 }
 
-/* ---------------- CUADRO CELESTE ---------------- */
+/*  CUADRO CELESTE  */
 .cuadro_celeste {
     display: flex;
     background-color: #B2FAFE;
@@ -161,7 +170,7 @@ img {
     box-shadow: 2px 3px 2px #040404;
 }
 
-/* ---------------- RESPONSIVE CUADRO CELESTE ---------------- */
+/*  RESPONSIVE CUADRO CELESTE  */
 @media (max-width: 992px) {
     .cuadro_celeste {
         flex-direction: column;
@@ -194,7 +203,7 @@ img {
     }
 }
 
-/* ---------------- CUADRO PIEL ---------------- */
+/* CUADRO PIEL */
 .cuadro_piel {
     background-color: #FCC6BB;
     display: flex;
@@ -288,7 +297,7 @@ img {
     font-size: 1.5em;
 }
 
-/* ---------------- RESPONSIVE CUADRO PIEL ---------------- */
+/*  RESPONSIVE CUADRO PIEL  */
 
 @media (max-width: 992px) {
 
@@ -321,7 +330,7 @@ img {
     }
 }
 
-/* ---------------- CUADRO AZUL ---------------- */
+/*  CUADRO AZUL  */
 
 .cuadro_azul {
     background-image: url(../recursos/img/cupcake.jpg);
@@ -355,7 +364,7 @@ img {
     color: #000000;
 }
 
-/* ---------------- RESPONSIVE CUADRO AZUL ---------------- */
+/*  RESPONSIVE CUADRO AZUL  */
 
 @media (max-width: 992px) {
     .cuadro_azul {
@@ -378,7 +387,7 @@ img {
     }
 }
 
-/* ---------------- FOOTER ---------------- */
+/*  FOOTER  */
 
 .footer {
     border-top: 10px solid var(--color-nav);
@@ -395,8 +404,6 @@ img {
     padding: 10px;
     grid-column: 1 / -1;
     margin: 0;
-    color: var(--color-texto);
-    font-family: 'Kavoon', cursive;
 }
 
 .derechos {
@@ -413,7 +420,7 @@ img {
     padding: 0;
 }
 
-/* ---------------- RESPONSIVE ---------------- */
+/*  RESPONSIVE  */
 
 @media (max-width: 800px) {
 
