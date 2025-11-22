@@ -1,6 +1,6 @@
 // Redirigir a productos
 function iraProductos() {
-    window.location.href="../principal/productos.html";
+    window.location.href="./principal/productos.html";
 }
 
 // Carrusel del index
