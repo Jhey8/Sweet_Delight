@@ -320,6 +320,11 @@ details p {
     .menu-hamburguesa {
         display: block;
     }
+
+    .contenido-acordeon{
+        grid-template-columns: repeat(2,1fr);
+
+    }
     .pestañas-nav {
         display: none;
         position: fixed;
