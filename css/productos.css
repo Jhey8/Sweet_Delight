@@ -206,7 +206,7 @@ details p {
 
 .contenido-acordeon {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(3, minmax(180px,1fr));
     gap: 20px;
     padding: 20px;
     justify-items: center;
@@ -321,8 +321,15 @@ details p {
         display: block;
     }
 
+    .tarjeta-producto{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 240px;
+    }
+
     .contenido-acordeon{
-        grid-template-columns: repeat(2,1fr);
+        grid-template-columns: repeat(auto-fit, minmax(180px,1fr));
 
     }
     .pestañas-nav {
