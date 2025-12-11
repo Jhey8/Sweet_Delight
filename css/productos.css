@@ -1,4 +1,3 @@
-
 :root {
     --color-nav: #11D0DA;
     --color-secundario: #AEE1F9;
@@ -26,15 +25,17 @@ body {
 
 
 section {
-    
+
     padding: 60px 10%;
     text-align: center;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
     color: var(--color-texto);
     margin-bottom: 15px;
-    
+
 }
 
 p {
@@ -43,19 +44,20 @@ p {
     margin-bottom: 15px;
 }
 
-header,img{
+header,
+img {
     margin: 0px;
     height: 100px;
     width: 100px;
     border-radius: 0px;
     max-width: 100%;
-    
+
 }
 
 .nav {
-    display:flex;
+    display: flex;
     align-items: center;
-    justify-content: center; 
+    justify-content: center;
     background-color: var(--color-nav);
     width: 100%;
     max-width: 100%;
@@ -64,59 +66,60 @@ header,img{
     padding: 15px;
 }
 
-.div-logo{
+.div-logo {
     position: absolute;
     justify-content: left;
     left: 5%;
 }
+
 @keyframes cambio-color {
-    0%{
+    0% {
         background-color: #ffffff;
         transform: scale(0%);
     }
 
-    100%{
+    100% {
         background-color: var(--color-intenso);
-         transform: scale(100%);
+        transform: scale(100%);
     }
 }
 
-.logo{
+.logo {
     width: 100px;
     border-radius: 50px;
     animation: cambio-color 5s 1;
 }
 
-.logo:hover{
+.logo:hover {
     transition: transform 2s ease-in-out;
-    transform: rotate(360deg); 
-    
-    
+    transform: rotate(360deg);
+
+
 }
 
-.pestañas-nav { 
+.pestañas-nav {
     display: flex;
     flex-wrap: wrap;
-    list-style: none; 
+    list-style: none;
     gap: 10px;
     width: 70%;
     justify-content: space-evenly;
-    
+
     padding: 15px;
     border-radius: 11px;
     box-sizing: border-box;
-   
+
 }
 
-.pestañas-nav a{
+.pestañas-nav a {
     text-decoration: none;
     color: var(--color-blanco);
     font-weight: bold;
     transition: color 0.4s ease;
-    
+
 }
 
-.pestañas-nav a:hover{
+.pestañas-nav a:hover {
     color: var(--color-rojito);
 }
 
@@ -129,17 +132,18 @@ header,img{
 
 /*MENÚ HAMBURGUESA*/
 .menu-hamburguesa {
-    display: none; 
+    display: none;
     background: none;
     border: none;
     font-size: 28px;
     color: var(--color-blanco);
     cursor: pointer;
-    position:absolute;
+    position: absolute;
     right: 5%;
     padding: 10px;
     z-index: 1100;
 }
+
 .menu-hamburguesa:hover {
     color: var(--color-rojito);
 
@@ -206,7 +210,7 @@ details p {
 
 .contenido-acordeon {
     display: grid;
-    grid-template-columns: repeat(3, minmax(180px,1fr));
+    grid-template-columns: repeat(3, minmax(180px, 1fr));
     gap: 20px;
     padding: 20px;
     justify-items: center;
@@ -219,7 +223,7 @@ details p {
     border-radius: 12px;
     width: 100%;
     max-width: 250px;
-  
+
     padding: 10px;
     text-align: center;
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
@@ -231,10 +235,10 @@ details p {
 }
 
 .tarjeta-producto img {
-  width: 100%;
-  height: 100px;
-  object-fit: cover;
-  border-radius: 8px;
+    width: 100%;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 8px;
 }
 
 .tarjeta-producto h4 {
@@ -299,7 +303,7 @@ details p {
 
 .derechos {
     grid-column: 1 / -1;
-    
+
     background-color: var(--color-nav);
     display: flex;
     justify-content: center;
@@ -319,21 +323,22 @@ details p {
         display: block;
     }
 
-    .tarjeta-producto{
+    .tarjeta-producto {
         display: flex;
         flex-direction: column;
         justify-content: space-between;
         height: 240px;
     }
 
-    .contenido-acordeon{
-        grid-template-columns: repeat(auto-fit, minmax(180px,1fr));
+    .contenido-acordeon {
+        grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
 
     }
+
     .pestañas-nav {
         display: none;
         position: fixed;
-        top: 130px; 
+        top: 130px;
         left: 0;
         width: 100%;
         background-color: var(--color-nav);
@@ -341,21 +346,21 @@ details p {
         align-items: center;
         padding: 20px 0;
         gap: 5px;
-                
-        
+
+
         transition: all 0.3s ease;
     }
-   
+
     .pestañas-nav.show {
         display: flex;
     }
-    
-    
+
+
     .pestañas-nav li {
         width: 100%;
         text-align: center;
     }
-    
+
     .pestañas-nav a {
         display: block;
         padding: 15px;
@@ -365,7 +370,7 @@ details p {
 
     .pestañas-nav a:hover {
         background-color: var(--color-texto);
-    }   
+    }
 
     .footer {
         grid-template-columns: 1fr;
@@ -375,7 +380,7 @@ details p {
 
     .footer .titulo {
         font-size: 20px;
-    }   
+    }
 
     .derechos {
         font-size: 0.9 rem;
@@ -391,7 +396,7 @@ details p {
     top: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0,0,0,0.6);
+    background: rgba(0, 0, 0, 0.6);
     justify-content: center;
     align-items: center;
     z-index: 9999;
@@ -408,8 +413,15 @@ details p {
 }
 
 @keyframes aparecer {
-    from { transform: scale(0.8); opacity: 0; }
-    to   { transform: scale(1); opacity: 1; }
+    from {
+        transform: scale(0.8);
+        opacity: 0;
+    }
+
+    to {
+        transform: scale(1);
+        opacity: 1;
+    }
 }
 
 .cerrar {
@@ -440,4 +452,58 @@ details p {
     margin-top: 10px;
     font-weight: bold;
     color: #00b3b3;
+}
+
+
+
+/*barra de búsqueda...*/
+.contenedor-busqueda {
+    max-width: 600px;
+    margin: 30px auto 20px;
+    padding: 0 20px;
+}
+
+#barraBusqueda {
+    width: 100%;
+    padding: 12px 20px;
+    font-size: 16px;
+    border: 2px solid #00b3b3;
+    border-radius: 25px;
+    outline: none;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#barraBusqueda:focus {
+    border-color: #009292;
+    box-shadow: 0 4px 10px rgba(0, 179, 179, 0.3);
+}
+
+/*pedir por whatsapp*/
+.btn-whatsapp {
+    background-color: #25D366;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 25px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    margin: 15px auto 0;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    justify-content: center;
+    transition: all 0.3s ease;
+    box-shadow: 0 3px 8px rgba(37, 211, 102, 0.3);
+}
+
+.btn-whatsapp:hover {
+    background-color: #128C7E;
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(37, 211, 102, 0.5);
+}
+
+.btn-whatsapp i {
+    font-size: 20px;
 }

@@ -5,7 +5,7 @@ function iraProductos() {
 
 // Carrusel del index
 const productos = [
-    { imagen:"./recursos/img/chocolate.png", nombre:"Torta de Chocolate", descripcion:"Delicioso bizcocho con crema y cobertura de cacao puro." },
+    { imagen:"./recursos/img/chocolate.png", nombre:"Torta de Chocolate", descripcion:"Delicioso bizcocho con crema y cobertura de cacao." },
     { imagen:"./recursos/img/Queque de Vainilla.jpeg", nombre:"Torta de Vainilla", descripcion:"Esponjoso bizcocho con crema de vainilla y decoraciones coloridas." },
     { imagen:"./recursos/img/torta de fresas.png", nombre:"Torta de Fresa", descripcion:"Bizcocho suave con relleno y cobertura de fresas frescas." },
     { imagen:"./recursos/img/cupcake.jpg", nombre:"Cupcakes Surtidos", descripcion:"Variedad de sabores y decoraciones para todos los gustos." },

@@ -41,6 +41,10 @@
             <h2>Nuestros Productos</h2>
             <p>Descubre la variedad de postres artesanales que tenemos para ti.</p>
 
+            <div class="contenedor-busqueda">
+                <input type="text" id="barraBusqueda" placeholder="Buscar Producto..." oninput="filtrarProductos()">
+            </div>
+
             <div class="acordeon">
                 <details class="Contenedor">
 
@@ -527,6 +531,12 @@
             </div>
             <p id="detalleDescripcion"></p>
             <h4 id="detallePrecio"></h4>
+
+            <!-- pedir por whatsapp -->
+            <button id="btnWhatsApp" class="btn-whatsapp">
+                <i class="fa-brands fa-whatsapp"></i>Pedir por WhatsApp
+
+            </button>
         </div>
     </div>
 
