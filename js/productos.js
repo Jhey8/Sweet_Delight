@@ -21,7 +21,7 @@ function mostrarDetalle(titulo, imgA, imgB, descripcion, precio) {
 
     //configurando para wl boton de whatsapp
     const btnWhatsApp = document.getElementById("btnWhatsApp");
-    const numeroWhatsApp = "51942231107"; 
+    const numeroWhatsApp = "51962631323"; 
     const mensaje = `Hola Sweet Delight! Me interesa el producto: *${ titulo }* - Precio: ${ precio }`;
     const urlWhatsApp = `https://wa.me/${numeroWhatsApp}?text=${encodeURIComponent(mensaje)}`;
 
